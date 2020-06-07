@@ -1,0 +1,161 @@
+{
+  "project": {
+    "projectSettingsVersion": "1.2",
+    "creationData": {
+      "type": "Demo",
+      "projectTypeName": "com.intel.xdk.projecttype.jsapp",
+      "src": "https://edge-intel.s3.amazonaws.com/jsapp/production/release-2014-ww51/sample-ar-nearby-search/sample.zip",
+      "projectGuid": "00000000-0000-0000-0000-000000000000",
+      "lastModifiedDate": 1423606171216,
+      "creationDate": 1423605516237
+    },
+    "sourceDirectory": "www",
+    "cordovaPluginsDirectory": "plugins",
+    "startFile": "index.html",
+    "projectFiles": {},
+    "projectDirectories": {},
+    "libraries": [],
+    "cordovaPlugins": [
+      {
+        "id": "org.apache.cordova.geolocation",
+        "version": "?",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
+      },
+      {
+        "id": "org.apache.cordova.splashscreen",
+        "version": "?",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
+      },
+      {
+        "id": "org.apache.cordova.device-orientation",
+        "version": "?",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
+      },
+      {
+        "id": "org.apache.cordova.device-motion",
+        "version": "?",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {}
+      }
+    ],
+    "serviceMethods": [],
+    "buildConfigurations": {
+      "Android": {
+        "platform_": "android",
+        "runtime_": "Cordova 3.x",
+        "name_": "Android",
+        "preferences_": {
+          "android-minSdkVersion": "10",
+          "android-targetSdkVersion": "19",
+          "android-installLocation": "auto"
+        },
+        "isActive_": true,
+        "appName_": "ARLocationSearch",
+        "appID_": "xdk.sample.arlocationsearch",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "iosProvs_": [],
+        "cordovaCLIVersion_": "?",
+        "crosswalkVersion_": "?",
+        "appVersion_": "0.0.1",
+        "appDescription_": "A sample app developed with HTML5 and uses Cordova* APIs to access device's compass, accelerometer and geolocation information.",
+        "appVersionCode_": "1"
+      },
+      "Android-Crosswalk": {
+        "platform_": "android",
+        "runtime_": "Crosswalk with Cordova 3.x",
+        "name_": "Android-Crosswalk",
+        "preferences_": {
+          "android-minSdkVersion": "14",
+          "android-targetSdkVersion": "19",
+          "android-installLocation": "auto"
+        },
+        "isActive_": true,
+        "appName_": "ARLocationSearch",
+        "appID_": "xdk.sample.arlocationsearch",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "iosProvs_": [],
+        "cordovaCLIVersion_": "?",
+        "crosswalkVersion_": "?",
+        "appVersion_": "0.0.1",
+        "appDescription_": "A sample app developed with HTML5 and uses Cordova* APIs to access device's compass, accelerometer and geolocation information.",
+        "appVersionCode_": "1"
+      },
+      "iOS": {
+        "platform_": "ios",
+        "runtime_": "Cordova 3.x",
+        "name_": "iOS",
+        "preferences_": {
+          "ios-target": "6",
+          "ios-configuration": "adhoc"
+        },
+        "isActive_": true,
+        "appName_": "ARLocationSearch",
+        "appID_": "xdk.sample.arlocationsearch",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "iosProvs_": [],
+        "cordovaCLIVersion_": "?",
+        "crosswalkVersion_": "?",
+        "appVersion_": "0.0.1",
+        "appDescription_": "A sample app developed with HTML5 and uses Cordova* APIs to access device's compass, accelerometer and geolocation information."
+      },
+      "Windows8": {
+        "platform_": "windows8",
+        "runtime_": "Cordova 3.x",
+        "name_": "Windows8",
+        "preferences_": {},
+        "isActive_": true,
+        "appName_": "ARLocationSearch",
+        "appID_": "xdk.sample.arlocationsearch",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "iosProvs_": [],
+        "cordovaCLIVersion_": "?",
+        "crosswalkVersion_": "?",
+        "appAuthor_": "Intel XDK",
+        "appVersion_": "0.0.0.1",
+        "appDescription_": "A sample app developed with HTML5 and uses Cordova* APIs to access device's compass, accelerometer and geolocation information."
+      }
+    },
+    "gameAssetDirectory": "asset",
+    "gameMetadata": {},
+    "projectTags": []
+  }
+}
